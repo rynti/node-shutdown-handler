@@ -14,7 +14,7 @@ $ npm install shutdown-handler
 
 In order to simply execute code prior to closing the application, add an event listener for the `exit` event:
 
-```node
+```js
 require('shutdown-handler').on('exit', function() {
   console.log("Shutdown...");
 });
@@ -22,7 +22,7 @@ require('shutdown-handler').on('exit', function() {
 
 By default however, the application gets automatically closed after the events have been triggered. In order to avoid this default behaviour, simply execute the `preventDefault` function on the passed event object:
 
-```node
+```js
 require('shutdown-handler').on('exit', function(e) {
   e.preventDefault();
   console.log("This application shall not be closed!");
