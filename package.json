@@ -1,0 +1,28 @@
+{
+  "name": "shutdown-handler",
+  "version": "1.0.0",
+  "author": "Robert Böhm",
+  "description": "Gives the ability to execute code upon closing a Node.js application.",
+  "main": "shutdown-handler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rynti/node-shutdown-handler.git"
+  },
+  "keywords": [
+    "shutdown",
+    "handler",
+    "hook",
+    "event",
+    "events",
+    "exit",
+    "sigterm",
+    "sigkill",
+    "ctrl",
+    "terminate",
+    "kill",
+    "process",
+    "stop"
+  ],
+  "license": "MIT",
+  "engines": { "node" : "*" }
+}
