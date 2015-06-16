@@ -1,6 +1,6 @@
 {
   "name": "shutdown-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Robert Böhm",
   "description": "Gives the ability to execute code upon closing a Node.js application.",
   "main": "shutdown-handler.js",
